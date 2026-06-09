@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #2b2b2b;
+      color: #f5f5f5;
+      text-align: center 130% ;
+    }
+
+    .hero {
+    min-height: 100vh;
+    padding: 40px;
+
+    background:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.75)),
+        url("images/hintergrund.png");
+
+    background-size: cover;
+    background-position: center 20%;
+}  
+
+    .box {
+      max-width: 520px;
+      margin-left: 40px;
+      padding-top: 150px;
+      text-align: left;
+      color: #f0f0f0;
+    }
+
+    h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+   .claim {
+    position: relative;
+    top: 70px
+    left: -380px
+    font-size: 2.0rem;
+    font-weight: bold;
+    color: #d4b46a;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+    p {
+      font-size: 20px;
+      line-height: 1.6;
+    }
+
+    .buttons {
+      margin-top: 35px;
+    }
+
+    .buttons {
+    margin-left: 0;
+}
+ 
+.button {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 12px 22px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.button.youtube {
+  background: #ff0000;
+}
+
+.button.instagram {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+}
+
+    .button:hover {
+      background: #d7c28a;
+      color: #2f3437;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    @media (max-height: 500px) and (orientation: landscape) {
+  .hero {
+    padding: 20px 40px;
+  }
+
+  .box {
+    padding-top: 20px;
+    max-width: 720px;
+  }
+
+  p {
+    font-size: 1.3rem;
+    line-height: 1.35;
+    margin: 12px 0;
+  }
+
+  .claim {
+    font-size: 1.4rem;
+    margin: 18px 0;
+  }
+
+  .buttons {
+    margin-top: 20px;
+  }
+
+  footer {
+    display: none;
+  }
+}    
+    }
+     .logo {
+  width: 180px;
+  max-width: 80%;
+  margin-bottom: 20px;
+    }
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.titleblock {
+    text-align: left;
+}
+
+.logo {
+    width: 180px;
+    max-width: 100%;
+}
+  </style>
+</head>
+<body>
+  <section class="hero">
+  <div class="box">
+
+    <div class="header">
+     
+      <div class="titleblock">
+        <h1></h1>
+       
+      </div>
+    </div>
+
+    <p>
+      Wir sind die Outdoor Boys.<br>
+      Eine Truppe 50+, unterwegs im Harz.
+    </p>
+ <div class="claim">Männer allein im Wald.</div>
+    <p>
+        Nur Natur, Gemeinschaft, lustige Sprüche<br>
+        und unsere Wanderungen auf dem Weg<br>
+        zum Harzer Wanderkaiser.
+    </p>
+
+    <div class="buttons">
+  <a class="button youtube" href="https://www.youtube.com/@outdoor-harz" target="_blank">
+    ▶ YouTube
+  </a>
+
+  <a class="button instagram" href="https://www.instagram.com/outdoorboysharz/" target="_blank">
+    ◎ Instagram
+  </a>
+</div>
+
+    <footer>© Outdoor Boys im Harz</footer>
+
+  </div>
+</section>
+</body>
+</html>
